@@ -2,7 +2,7 @@
 [![Release Notes](https://img.shields.io/github/release/LolHens/mc-functional-streams.svg?maxAge=3600)](https://github.com/LolHens/mc-functional-streams/releases/latest)
 [![Apache License 2.0](https://img.shields.io/github/license/LolHens/mc-functional-streams.svg?maxAge=3600)](https://www.apache.org/licenses/LICENSE-2.0)
 
-![](https://raw.githubusercontent.com/LolHens/mc-functional-streams/master/src/main/resources/assets/volcanoes/icon.png)
+![](https://raw.githubusercontent.com/LolHens/mc-functional-streams/master/src/main/resources/assets/functionalstreams/icon.png)
 
 This mod implements functional Streams.
 Still WIP

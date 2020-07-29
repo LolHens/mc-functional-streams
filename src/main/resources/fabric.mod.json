@@ -1,37 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "functionalstreams",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Functional Streams",
+  "description": "This mod implements functional streams.",
   "authors": [
-    "Me!"
+    "LolHens"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/LolHens/mc-functional-streams",
+    "sources": "https://github.com/LolHens/mc-functional-streams"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "license": "Apache-2.0",
+  "icon": "assets/functionalstreams/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      {
+        "adapter": "scala",
+        "value": "de.lolhens.functionalstreams.FunctionalStreamsMod"
+      }
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "functionalstreams.mixins.json"
   ],
-
   "depends": {
+    "fabric-language-scala": "*",
     "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }

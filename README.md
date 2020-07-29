@@ -2,7 +2,7 @@
 [![Release Notes](https://img.shields.io/github/release/LolHens/mc-node-green.svg?maxAge=3600)](https://github.com/LolHens/mc-node-green/releases/latest)
 [![Apache License 2.0](https://img.shields.io/github/license/LolHens/mc-node-green.svg?maxAge=3600)](https://www.apache.org/licenses/LICENSE-2.0)
 
-![](https://raw.githubusercontent.com/LolHens/mc-node-green/master/src/main/resources/assets/functionalstreams/icon.png)
+![](https://raw.githubusercontent.com/LolHens/mc-node-green/master/src/main/resources/assets/nodegreen/icon.png)
 
 Similar to [Node-RED](https://nodered.org/) but for Minecraft.
 Still WIP

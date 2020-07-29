@@ -1,30 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "functionalstreams",
+  "id": "nodegreen",
   "version": "${version}",
-  "name": "Functional Streams",
-  "description": "This mod implements functional streams.",
+  "name": "Node-GREEN",
+  "description": "This mod works like Node-RED but for minecraft.",
   "authors": [
     "LolHens"
   ],
   "contact": {
-    "homepage": "https://github.com/LolHens/mc-functional-streams",
-    "sources": "https://github.com/LolHens/mc-functional-streams"
+    "homepage": "https://github.com/LolHens/mc-node-green",
+    "sources": "https://github.com/LolHens/mc-node-green"
   },
   "license": "Apache-2.0",
-  "icon": "assets/functionalstreams/icon.png",
+  "icon": "assets/nodegreen/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       {
         "adapter": "scala",
-        "value": "de.lolhens.functionalstreams.FunctionalStreamsMod"
+        "value": "de.lolhens.minecraft.nodegreen.NodeGreenMod"
       }
     ]
   },
-  "mixins": [
-    "functionalstreams.mixins.json"
-  ],
   "depends": {
     "fabric-language-scala": "*",
     "fabricloader": ">=0.7.4",

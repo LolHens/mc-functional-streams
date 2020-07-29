@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nodegreen:block/stream_source"
+    }
+  }
+}

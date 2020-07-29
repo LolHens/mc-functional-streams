@@ -1,4 +1,4 @@
-package de.lolhens.functionalstreams.block
+package de.lolhens.minecraft.nodegreen.block
 
 import net.minecraft.block.Blocks
 import net.minecraft.block.entity.{BlockEntity, BlockEntityType}

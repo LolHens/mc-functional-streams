@@ -1,6 +1,6 @@
-package de.lolhens.functionalstreams
+package de.lolhens.minecraft.nodegreen
 
-import de.lolhens.functionalstreams.block.StreamSourceBlock
+import de.lolhens.minecraft.nodegreen.block.StreamSourceBlock
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.loader.api.FabricLoader
 import net.fabricmc.loader.api.metadata.ModMetadata
@@ -11,7 +11,7 @@ import net.minecraft.util.registry.Registry
 
 import scala.jdk.CollectionConverters._
 
-object FunctionalStreamsMod extends ModInitializer {
+object NodeGreenMod extends ModInitializer {
   val metadata: ModMetadata = {
     FabricLoader.getInstance().getEntrypointContainers("main", classOf[ModInitializer])
       .iterator().asScala.find(this eq _.getEntrypoint).get.getProvider.getMetadata
